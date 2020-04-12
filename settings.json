@@ -1,134 +1,71 @@
 {
+    //Editor
     "vim.disableExtension": false,
-    // "java.home": "C:\\Users\\nmont\\AppData\\Local\\Programs\\AdoptOpenJDK",
-    "java.help.firstView": "gettingStarted",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "java.configuration.checkProjectSettingsExclusions": false,
     "window.zoomLevel": 0,
     "editor.renderWhitespace": "all",
+    //Python
     "python.jediEnabled": false,
+    //Java
+    // "java.home": "C:\\Users\\nmont\\AppData\\Local\\Programs\\AdoptOpenJDK",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.help.firstView": "gettingStarted",
+    //Vim
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": [
-                "j",
-                "k"
-            ],
-            "after": [
-                "<Esc>"
-            ]
+            "before": [ "j", "k" ],
+            "after": [ "<Esc>" ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
+            "before": [ "<leader>", "d" ],
+            "after": [ "d", "d" ]
         },
         {
-            "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
+            "before": [ "<C-n>" ],
+            "commands": [ ":nohl" ]
         },
         {
-            "before": [
-                "<Leader>",
-                "t",
-                "t"
-            ],
-            "commands": [
-                ":tabnew"
-            ]
+            "before": [ "<Leader>", "t", "t" ],
+            "commands": [ ":tabnew" ]
         },
         {
-            "before": [
-                "<Leader>",
-                "t",
-                "n"
-            ],
-            "commands": [
-                ":tabnext"
-            ]
+            "before": [ "<Leader>", "t", "n" ],
+            "commands": [ ":tabnext" ]
         },
         {
-            "before": [
-                "<Leader>",
-                "t",
-                "p"
-            ],
-            "commands": [
-                ":tabprev"
-            ]
+            "before": [ "<Leader>", "t", "p" ],
+            "commands": [ ":tabprev" ]
         },
         {
-            "before": [
-                "<Leader>",
-                "t",
-                "o"
-            ],
-            "commands": [
-                ":tabo"
-            ]
+            "before": [ "<Leader>", "t", "o" ],
+            "commands": [ ":tabo" ]
         },
         {
-            "before": [
-                "<Leader>",
-                "p"
-            ],
-            "commands": [
-                "workbench.action.showCommands",
-            ]
+            "before": [ "<Leader>", "p" ],
+            "commands": [ "workbench.action.showCommands", ]
         },
         {
-            "before": [
-                "<Leader>",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.gotoSymbol",
-            ]
+            "before": [ "<Leader>", "s" ],
+            "commands": [ "workbench.action.gotoSymbol", ]
         },
         {
-            "before": [
-                "<Leader>",
-                "g",
-                "r"
-            ],
-            "commands": [
-                "editor.action.goToReferences",
-            ]
+            "before": [ "<Leader>", "g", "r" ],
+            "commands": [ "editor.action.goToReferences", ]
         },
         {
-            "before": [
-                "<Leader>",
-                "w",
-                "q",
-            ],
-            "commands": [
-                ":wq",
-            ]
+            "before": [ "<Leader>", "w", "q", ],
+            "commands": [ ":wq", ]
         },
         {
-            "before": [
-                "<Leader>",
-                "q",
-                "q"
-            ],
-            "commands": [
-                ":q!",
-            ]
+            "before": [ "<Leader>", "q", "q" ],
+            "commands": [ ":q!", ]
         }
     ],
     "vim.leader": "<space>",
