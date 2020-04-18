@@ -12,6 +12,7 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.help.firstView": "gettingStarted",
     //Vim
+    "vim.foldfix": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
