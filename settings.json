@@ -45,6 +45,10 @@
             "commands": [ ":tabo" ]
         },
         {
+            "before": [ "<Leader>", "o" ],
+            "commands": [ "workbench.action.quickOpen", ]
+        },
+        {
             "before": [ "<Leader>", "p" ],
             "commands": [ "workbench.action.showCommands", ]
         },
