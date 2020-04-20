@@ -29,10 +29,6 @@
             "after": [ "d", "d" ]
         },
         {
-            "before": [ "<C-n>" ],
-            "commands": [ ":nohl" ]
-        },
-        {
             "before": [ "<Leader>", "t", "t" ],
             "commands": [ ":tabnew" ]
         },
