@@ -61,6 +61,10 @@
             "commands": [ "editor.action.goToReferences", ]
         },
         {
+            "before": [ "<Leader>", "w", "w", ],
+            "commands": [ "workbench.action.files.save", ]
+        },
+         {
             "before": [ "<Leader>", "w", "q", ],
             "commands": [ ":wq", ]
         },
