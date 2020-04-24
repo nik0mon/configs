@@ -4,6 +4,8 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
     //Python
     "python.jediEnabled": false,
@@ -19,63 +21,148 @@
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": [ "j", "k" ],
-            "after": [ "<Esc>" ]
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": [ "<leader>", "d" ],
-            "after": [ "d", "d" ]
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
         },
         {
-            "before": [ "<Leader>", "t", "t" ],
-            "commands": [ ":tabnew" ]
+            "before": [
+                "<Leader>",
+                "t",
+                "t"
+            ],
+            "commands": [
+                ":tabnew"
+            ]
         },
         {
-            "before": [ "<Leader>", "t", "n" ],
-            "commands": [ ":tabnext" ]
+            "before": [
+                "<Leader>",
+                "t",
+                "n"
+            ],
+            "commands": [
+                ":tabnext"
+            ]
         },
         {
-            "before": [ "<Leader>", "t", "p" ],
-            "commands": [ ":tabprev" ]
+            "before": [
+                "<Leader>",
+                "t",
+                "p"
+            ],
+            "commands": [
+                ":tabprev"
+            ]
         },
         {
-            "before": [ "<Leader>", "t", "o" ],
-            "commands": [ ":tabo" ]
+            "before": [
+                "<Leader>",
+                "t",
+                "o"
+            ],
+            "commands": [
+                ":tabo"
+            ]
         },
         {
-            "before": [ "<Leader>", "o" ],
-            "commands": [ "workbench.action.quickOpen", ]
+            "before": [
+                "<Leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
         },
         {
-            "before": [ "<Leader>", "p" ],
-            "commands": [ "workbench.action.showCommands", ]
+            "before": [
+                "<Leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
         },
         {
-            "before": [ "<Leader>", "s" ],
-            "commands": [ "workbench.action.gotoSymbol", ]
+            "before": [
+                "<Leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
         },
         {
-            "before": [ "<Leader>", "g", "r" ],
-            "commands": [ "editor.action.goToReferences", ]
+            "before": [
+                "<Leader>",
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
         },
         {
-            "before": [ "<Leader>", "w", "w", ],
-            "commands": [ "workbench.action.files.save", ]
-        },
-         {
-            "before": [ "<Leader>", "w", "q", ],
-            "commands": [ ":wq", ]
+            "before": [
+                "<Leader>",
+                "w",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
         },
         {
-            "before": [ "<Leader>", "q", "q" ],
-            "commands": [ ":q!", ]
+            "before": [
+                "<Leader>",
+                "w",
+                "q"
+            ],
+            "commands": [
+                ":wq"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "q",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
         }
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false
-    }
+    },
+    "java.requirements.JDK11Warning": false,
+    //WSL this is to make sure editor can change file
+    "remote.WSL.fileWatcher.polling": true
 }
