@@ -164,5 +164,6 @@
     },
     "java.requirements.JDK11Warning": false,
     //WSL this is to make sure editor can change file
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "remote.WSL.fileWatcher.polling": true
 }
